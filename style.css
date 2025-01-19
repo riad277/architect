@@ -71,11 +71,29 @@
 }
 .banner-img{
     width: 100%;
+    padding-bottom: 20px;
 }
 
+/* body section */
+.main2{
+    max-width: 970px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 60px;
+}
 
+/* featurer section */
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
-
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 12px;
+}
 
 
 
@@ -95,4 +113,13 @@
     flex-direction: column;
 
 } */
+ .feature{
+    flex-direction: column;
+ }
+ .container{
+    grid-template-columns: repeat(1,1fr);
+ }
+ .feature-des{
+    padding: 0 20px;
+ }
 }
