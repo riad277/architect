@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-full {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* shared style */
+.dark3{
+    color: rgba(114, 114, 114, 1);
+}
+.dark2{
+    color: rgba(66, 66, 66, 1);
+}
+.dark1{
+    color: rgba(19, 19, 19, 1);
+}
+.bg{
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+.explore{
+    padding: 13.4px 16.75px;
+    border: none;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+/* header styles */
+.head1{
+    max-width: 965px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.option{
+    display: flex;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+}
+/* banner css */
+.banner{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 2.68rem;
+    margin-top: 35px;
+}
+.banner-des{
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+.banner-img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 570px) {
+    .nav-head , .option{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+    .nav-link{
+        color: rgb(4, 6, 0);
+    }
+/* .option{
+    flex-direction: column;
+
+} */
+}
