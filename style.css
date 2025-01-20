@@ -194,7 +194,16 @@
 }
 
 
+/* fact section */
 
+.facts{
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.fact{
+    width: 90px;
+    margin-top: 5px;
+}
 
 
 
